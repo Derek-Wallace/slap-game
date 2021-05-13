@@ -29,7 +29,7 @@
     <body class="container-fluid">
       <div class="row">
         <div class="col-6 text-center my-md-5"> 
-          <div class="btn btn-success" onclick="slap()">Slap</div>
+          <div class="btn btn-secondary" onclick="slap()">Slap</div>
           <div class="btn btn-primary" onclick="punch()">punch</div>
           <div class="btn btn-warning" onclick="kick()">kick</div>
           <div class="btn btn-info" onclick="Hadouken()">Hadouken</div>
@@ -49,11 +49,19 @@
       </div>
       
       <div class="row">
-        <div class="col-4">
+        <div class="col-2">
           <div class="btn btn-danger m-5" onclick="reset()">Reset</div>
         </div>
+        <div class="col-6"></div>
+        <div class="col-4 mt-3">
+          <div class="btn btn-success" onclick="guard()">Guard</div>
+          <div class="btn btn-success" onclick="duck()">Duck</div>
+          <div class="btn btn-success" onclick="jump()">jump</div>
+        </div>
       </div>
+      <audio id="sound"></audio>
     </body>
+
     
 
   </main>
